@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+.side-menu{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: #131316;
+    height: 100vh;
+    font-family: onest;
+    position: fixed;
+    z-index: 1;
+    padding: 20px;
+}
+.close{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.close-icon{
+    display: none;
+}
+.side-menu-close{
+    background-color: transparent;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    width: 30px;
+    margin: 20px;
+    display: none;
+    color: #ececee;
+
+}
+.side-menu-heading{
+    font-family: arial;
+    color: #ececee;
+    font-size: 24px;
+    font-weight: 600;
+}
+.create-btn{
+    background-color: #202024;
+    color: #ececee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.plus{
+    padding-bottom: 2px;
+    margin-right: 2px;
+
+}
+.discover-btn{
+    width: 100%;
+    background-color: #202024;
+    color: #ececee;
+    border-radius: 8px;
+    margin-top: 16px;
+    border: none;
+    padding: 10px 10px 10px 15px;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.compass{
+    margin: 0px 10px 2px 0px;
+}
+.side-menu-sub{
+    font-family: onest;
+    color: #ececee;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:576px){
+    .side-menu-close{
+        display: block;
+    }
+    .side-menu{
+        display: none;
+    }
+    .close-icon{
+        display: block;
+    }
+    
+}
