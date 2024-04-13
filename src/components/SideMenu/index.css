@@ -17,9 +17,7 @@
     cursor: pointer;
 }
 
-.close-icon{
-    display: none;
-}
+
 .side-menu-close{
     background-color: transparent;
     z-index: 999;
@@ -88,8 +86,6 @@
     .side-menu{
         display: none;
     }
-    .close-icon{
-        display: block;
-    }
+    
     
 }
